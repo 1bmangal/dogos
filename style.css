@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container .promo{
+    background-color: yellow;
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.header .links{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.header .links a{
+    text-decoration: none;
+    color: blue;
+}
+.header .links .comecar{
+    font-weight: bold;
+}
+.dogao{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dogao .text{
+    font-size: 20px;
+}
+.dogao .text .blue{
+    color: blue;
+}
+.dogao .text .personalizado{
+    font-size: 18px;
+    margin-top: 30px;
+}
+.dogao .plan{
+    margin-top: 40px;
+    width: 160px;
+    height: 80px;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+}
+.dogao .plano{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.dogao .image{
+    display: flex;
+    padding-right: 50px;
+}
+.dogao .pote{
+    padding-right: 110px;
+}
+.parc{
+    background-color: rgb(201, 201, 201);
+}
+.parc .talks{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.animation{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 350px;
+    margin-right: 150px;
+    gap: 100px;
+}
+.animation .coco h5{
+    font-size: 20px;
+}
+.animation .coco h1{
+    font-size: 50px;
+}
+.animation .coco .blue{
+    font-size: 50px;
+    color: blue;
+}
+.animation .coco .saporra{
+    margin-top: 10px;
+    width: 160px;
+    height: 80px;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+}
+.animation .coco .agora{
+    color: white;
+    text-decoration: none;
+}
+.cachorros{
+    margin-top: 50px;
+    margin-left: 350px;
+    display: flex;
+    gap: 100px;
+}
+.cachorros .humanos h1{
+    font-size: 50px;
+}
+.cachorros .humanos .blue{
+    color: blue;
+}
+.cachorros .humanos h5{
+    font-size: 20px;
+}
+.cachorros .humanos .butao{
+    margin-top: 10px;
+    width: 160px;
+    height: 80px;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+}
+.cachorros .humanos .funciona{
+    color: white;
+    text-decoration: none;
+}
+
+.caixa{
+    margin-top: 50px;
+    margin-left: 350px;
+    display: flex;
+    gap: 100px;
+}
+.caixa .armado h1{
+    font-size: 50px;
+}
+.caixa .armado .blue{
+    color: blue;
+}
+.caixa .armado .klarosk{
+    margin-top: 10px;
+    width: 160px;
+    height: 80px;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+}
+.caixa .armado .furry{
+    color: white;
+    text-decoration: none;
+}
+.four{
+    margin-top: 50px;
+    margin-left: 350px;
+    display: flex;
+    gap: 100px;
+}
+.four .aranhaverso h1{
+    font-size: 50px;
+}
+.four .aranhaverso .blue{
+    color: blue;
+}
+.four .aranhaverso .cannon{
+    margin-top: 10px;
+    width: 160px;
+    height: 80px;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+}
+.four .aranhaverso .miles{
+    color: white;
+    text-decoration: none;
+}
+.fofo{
+    margin-top: 50px;
+    margin-left: 350px;
+    display: flex;
+    gap: 100px;
+}
+.fofo .no h1{
+    font-size: 50px;
+}
+.fofo .no .blue{
+    color: blue;
+}
+.fofo .no .rariz{
+    margin-top: 10px;
+    width: 160px;
+    height: 80px;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+}
+.fofo .no .safado{
+    color: white;
+    text-decoration: none;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .footer-content p {
+    margin: 0;
+}
+
+.footer .social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer .social-links a:hover {
+    text-decoration: underline;
+}
